@@ -852,6 +852,7 @@
       themeButton.setAttribute("aria-label", label);
       themeButton.setAttribute("title", label);
       themeButton.setAttribute("aria-pressed", String(isDark));
+      document.querySelector('meta[name="theme-color"]').content = isDark ? "#111516" : "#f2eee4";
     }
 
     try {

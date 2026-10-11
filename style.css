@@ -725,8 +725,19 @@ html[data-theme="dark"] .article-contents,
 html[data-theme="dark"] .wiki-infobox,
 html[data-theme="dark"] .wiki-infobox dl div,
 html[data-theme="dark"] .wiki-notice,
-html[data-theme="dark"] .sidebar-note {
+html[data-theme="dark"] .sidebar-note,
+html[data-theme="dark"] .wiki-search,
+html[data-theme="dark"] .stand-badge {
   border-color: var(--line);
+}
+
+html[data-theme="dark"] .stand-badge {
+  color: var(--muted);
+}
+
+html[data-theme="dark"] .stand-facts dt,
+html[data-theme="dark"] .stand-facts dd {
+  color: var(--muted);
 }
 
 html[data-theme="dark"] .article-contents,
@@ -734,7 +745,8 @@ html[data-theme="dark"] .progression-box,
 html[data-theme="dark"] .stand-entry,
 html[data-theme="dark"] .wiki-infobox,
 html[data-theme="dark"] .wiki-notice,
-html[data-theme="dark"] .sidebar-note {
+html[data-theme="dark"] .sidebar-note,
+html[data-theme="dark"] .wiki-search {
   background: var(--white);
 }
 
@@ -926,7 +938,7 @@ html[data-theme="dark"] .infobox-note {
   .wiki-footer {
     align-items: flex-start;
     flex-direction: column;
-    padding: 12px 16px;
+    padding: 11px 16px;
   }
 }
 
